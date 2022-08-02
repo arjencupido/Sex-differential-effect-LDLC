@@ -28,7 +28,7 @@ library(DescTools)
 
 # Function for aligning UKB variants so that the score will be calculated per increasing weight (e.g. increasing LDL-C).
 UKB_WeighVarPos <- function(d, UKB_variants_list, weights_list ){
-  # Takes a weights list, which is a dataframe with RSID, effect allele, alternative allele, beta, and prefereably effect allele frequency
+  # Takes a weights list, which is a dataframe with RSID, effect allele, alternative allele, beta
   # Takes a dataframe with all the variants from the UK Biobank, which can be extracted using Bgen (the --list option)
   # Takes the dataframe with all the individual data on genetic variants.
 
